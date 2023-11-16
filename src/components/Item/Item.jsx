@@ -4,7 +4,7 @@ import { Card, CardBody, CardFooter, Image, Stack, Heading, Text, Divider, Butto
 export default function Item({name,description,price,sku,stock,image}) {
     return (
         <>
-            <Card m='100px' maxW='sm'>
+            <Card m='50px' maxW='sm'>
                 <CardBody>
                     <Image
                         src={image}
